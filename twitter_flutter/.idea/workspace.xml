@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2941a13-cfaa-492b-a637-71823356085f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/readkeys/readkeys.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/readkeys/readkeys.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/readkeys/readkeys.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="readkeys.dart" />
+    </option>
   </component>
   <component name="RunManager" selected="Flutter.readkeys.dart">
     <configuration name="readkeys.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
@@ -63,29 +69,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1491" height="189" key="GridCell.Tab.0.bottom" timestamp="1603453839116">
+    <state width="1491" height="189" key="GridCell.Tab.0.bottom" timestamp="1603454665121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603453839116" />
-    <state width="1491" height="189" key="GridCell.Tab.0.center" timestamp="1603453839115">
+    <state width="1491" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603454665121" />
+    <state width="1491" height="189" key="GridCell.Tab.0.center" timestamp="1603454665120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603453839115" />
-    <state width="1491" height="189" key="GridCell.Tab.0.left" timestamp="1603453839115">
+    <state width="1491" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603454665120" />
+    <state width="1491" height="189" key="GridCell.Tab.0.left" timestamp="1603454665120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603453839115" />
-    <state width="1491" height="189" key="GridCell.Tab.0.right" timestamp="1603453839115">
+    <state width="1491" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603454665120" />
+    <state width="1491" height="189" key="GridCell.Tab.0.right" timestamp="1603454665120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603453839115" />
-    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1603453790253">
+    <state width="1491" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603454665120" />
+    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1603454610386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1603453790253" />
-    <state x="772" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1603438915563">
+    <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1603454610386" />
+    <state x="772" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1603454497082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="772" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603438915563" />
+    <state x="772" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603454497082" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1603454567074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603454567074" />
   </component>
 </project>
