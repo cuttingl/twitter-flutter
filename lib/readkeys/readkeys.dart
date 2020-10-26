@@ -1,16 +1,29 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:async';
 import 'dart:developer';
+import 'dart:async' show Future, Timer;
 
-import 'package:flutter/material.dart';
 
 
-void readFileAsync(String path) {
-  File file = new File(path); // (1)
-  Future<String> futureContent = file.readAsString();
-  futureContent.then((c) => print(c)); // (3)
-}
-main() {
-  readFileAsync('.../keys.env');
+
+main() async {
+    var file = File('keys.txt');
+    print(file);
+    var contents;
+    log("test avant cond");
+    if (await file.exists()) {
+      log("test apres cond");
+      // Read file
+      contents = await file.readAsString();
+      String resultat = contents.toString();
+      print(resultat);
+    }
+    else {
+      print("mauvais nom de fichier");
+    }
+      // Write file
+      /*var fileCopy = await File('keys.env').writeAsString(contents);
+      print(await fileCopy.exists());
+      print(await fileCopy.length());*/
+
 }
