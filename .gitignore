@@ -10,6 +10,7 @@
 .svn/
 *.env
 *.txt
+lib/readkeys/env_keys.yml
 
 # IntelliJ related
 *.iml
