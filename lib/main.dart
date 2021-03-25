@@ -7,12 +7,27 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    /*return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
       ),
       home: MyHomePage(),
+    );*/
+    return MaterialApp(
+      home: DefaultTabController(
+          length: 2,
+          child: Scaffold(
+              appBar: AppBar(
+                title: const Text('Twitter flutter test'),
+                bottom: const TabBar(
+                  isScrollable: true,
+                  tabs: [
+                    Tab(text: 'Lecture auth keys'),
+                    Tab(text: 'Premiere requete')
+                  ],
+                ),
+              ))),
     );
   }
 }
@@ -29,18 +44,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-        length: 2,
-        child: Scaffold(
-            appBar: AppBar(
-          title: const Text('Twitter flutter test'),
-          bottom: const TabBar(
-            isScrollable: true,
-            tabs: [
-              Tab(text: 'Lecture auth keys'),
-              Tab(text: 'Premiere requete')
-            ],
-          ),
-        )));
+    return Scaffold();
+
   }
 }

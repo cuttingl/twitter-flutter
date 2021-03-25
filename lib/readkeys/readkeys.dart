@@ -1,24 +1,11 @@
-import 'dart:convert';
-import 'dart:io';
-import 'dart:developer';
-import 'dart:async' show Future, Timer;
+import 'package:twitter_flutter/keys/keys.dart';
 
-main() async {
-  var file = File('keys.env');
-  print(file);
-  var contents;
-  log("test avant cond");
-  if (await file.exists()) {
-    log("test apres cond");
-    // Read file
-    contents = await file.readAsString();
-    String resultat = contents.toString();
-    print(resultat);
-  } else {
-    print("mauvais nom de fichier");
-  }
-  // Write file
-  /*var fileCopy = await File('keys.env').writeAsString(contents);
-      print(await fileCopy.exists());
-      print(await fileCopy.length());*/
+var API_key = api_key;
+var API_secret = api_secret;
+var Token_access = token_access;
+var Token_access_secret = token_access_secret;
+var Bearer_token = bearer_token;
+
+main(){
+  print(API_key);
 }

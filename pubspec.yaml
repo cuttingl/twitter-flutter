@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  twitter_api : ^0.1.2
+
   dart_twitter_api: ^0.5.1
 
 
