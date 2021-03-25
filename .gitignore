@@ -10,7 +10,7 @@
 .svn/
 *.env
 *.txt
-assets/envfiles/
+assets/envfiles/keys.dart
 
 # IntelliJ related
 *.iml
